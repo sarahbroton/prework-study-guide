@@ -1,4 +1,4 @@
-var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
+var topics = ['HTML', 'CSS', 'Git', 'JavaScript', 'Additonal Info'];
 
 var randomTopic = topics[Math.floor(Math.random() * topics.length)]; 
 
@@ -22,12 +22,12 @@ if (randomTopic === 'HTML') {
   console.log("Let's study Git!");
 } else if (randomTopic === 'JavaScript') {
   console.log("Let's study JavaScript!");
-} else {
+}else if (randomTopic === 'Additional Info') {
+  console.log("I'm just testing")
+}else if (randomTopic === 'testing')
   console.log('Please try again!');
 
     }
-
-}
 
 console.log('Here are the topics we learned through Prework:');
 listTopics();
